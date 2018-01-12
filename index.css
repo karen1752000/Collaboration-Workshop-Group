@@ -42,7 +42,8 @@ margin: 0 auto;
 }
 
 @media all and (max-width: 480px){
-	.navbar{
+
+.navbar{
 text-align: center;
 font-size: 10px;
 }
@@ -89,5 +90,69 @@ height: 10px;
 width: 10px;
 padding-bottom: 70px;
 }
+.video{
+width: 70%;
+height: 115px;
+text-align: center;
+padding-right: 100px;
+}
 
 }
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+.navbar{
+text-align: center;
+font-size: 15px;
+}
+
+.title1{
+text-align: center;
+font-size: 15px;
+}
+
+.pic{
+background: url(pic.jpg);
+background-repeat: no-repeat;
+height: 150px;
+width: 150px;
+background-size: 100% 100%;
+margin: 0 auto;
+border: 2px solid red;
+}
+
+.summary{
+font-size: 15px;
+}
+
+.reviews{
+font-size: 15px;	
+}
+
+.stats{
+font-size: 15px;
+}
+.comp{
+text-align: center;
+font-size: 15px;
+}
+
+.others{
+font-size: 15px;
+}
+
+.trailer{
+font-size: 15px;
+margin: 0 auto;
+padding-bottom: 70px;
+}
+
+.video{
+width: 70%;
+height: 225px;
+text-align: center;
+padding-right: 100px;
+}
+
+}
+
