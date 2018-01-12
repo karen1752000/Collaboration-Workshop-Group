@@ -144,13 +144,14 @@ font-size: 15px;
 .trailer{
 font-size: 15px;
 margin: 0 auto;
-padding-bottom: 70px;
+padding-bottom: 20px;
+text-align: center;
 }
 
 .video{
 width: 70%;
 height: 225px;
-text-align: center;
+margin: auto 0;
 padding-right: 100px;
 }
 
