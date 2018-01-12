@@ -3,10 +3,11 @@ text-align: center;
 }
 
 .pic{
-background-image: url(pic.jpg);
+background: url(pic.jpg);
 background-repeat: no-repeat;
-height: 200px;
-width: 180px;
+height: 400px;
+width: 400px;
+background-size: 100% 100%;
 margin: 0 auto;
 border: 2px solid red;
 }
@@ -14,7 +15,6 @@ border: 2px solid red;
 .summary{
 text-indent: 50px;
 font-size: 25px;
-
 }
 
 .reviews{
