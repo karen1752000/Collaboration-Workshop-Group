@@ -1,0 +1,17 @@
+.title1{
+text-align: center;
+}
+
+.pic{
+background-image: url(MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_UX182_CR0,0,182,268_AL_.jpeg);
+background-repeat: no-repeat;
+height: 100px;
+width: 100px;
+margin: auto 0;
+border: 2px solid red;
+}
+
+.summary{
+text-indent: 50px;
+
+}
