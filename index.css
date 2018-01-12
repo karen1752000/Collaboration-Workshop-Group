@@ -1,0 +1,221 @@
+* {
+
+  margin:0;
+  padding:0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  
+}
+.main-navigation {
+  text-align: center;
+  clear: both;
+}
+.main-navigation li {
+  font-size: 12px;
+  font-size: 0.8571428571rem;
+  font-family: 'Pacifico', cursive;
+  color: #f9F3F4;
+  letter-spacing: 2px;
+  
+}
+.main-navigation a {
+  color:  #000080; 
+}
+.main-navigation a:hover {
+  color: #f9F3F4; 
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {display: none;}
+
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+  display: inline-block;
+}
+.menu-toggle {
+  margin: 16px 0;
+  margin: 1.1428571429rem 0;
+}
+
+.main-navigation ul.nav-menu.toggled-on li {margin-bottom: 16px;}
+
+.hassubchild:after {
+  content: 'V';
+  padding-left:5px;
+  font-size:7px;
+  color:#147852;
+}
+
+@media screen and (min-width: 600px) {
+.main-navigation ul.nav-menu,
+  .main-navigation div.nav-menu > ul {          
+    display: inline-block !important;
+    text-align: center; 
+    width: 100%;          
+  }
+  
+  .main-navigation ul { 
+    text-indent: 0;
+  }
+  .main-navigation li a,
+  .main-navigation li {
+    display: inline-block;
+    text-decoration: none;
+    
+    margin: 0 16px; 
+    margin: 0 1.1428571429rem;  
+  }
+  .main-navigation li a {
+    border-bottom: 0;
+    color:  #000080;
+    padding: 12px 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .main-navigation li a:hover {color: #89CBBF;}
+  .main-navigation li { 
+    position: relative;
+    margin: 0;
+  }
+  
+  .main-navigation li:hover {background: #ededed;}
+    
+  .main-navigation li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+  }
+  .main-navigation li ul ul {
+    top: 0;
+    left: 100%;
+  }
+  .main-navigation ul li:hover > ul {
+    border-left: 0;
+    display: block;
+  }
+  .main-navigation li ul li a {
+    background: #efefef;
+    border-bottom: 1px solid #ededed;
+    display: block;
+    font-size: 11px;
+    font-size: 0.7857142857rem;
+    padding: 8px 10px;
+    padding: 0.5714285714rem 0.7142857143rem;
+    width: 180px;
+    width: 12.857142857rem;
+    white-space: normal;
+    margin: 0;
+  }
+  .main-navigation li ul li a:hover {
+    background: #e3e3e3;    
+    color: #89CBBF;
+  }
+ 
+
+body {
+  
+  font-size:16px;
+  background: url(pexels-photo-769383.jpeg) no-repeat 50% 50%;
+  
+}
+
+.portfolio {
+  
+  width:900px;
+  margin:0 auto;
+
+  
+}
+
+.portfolio-item {
+  
+  width:300px;
+  height:400px;
+  float:left;
+  margin-top:50px;
+  position:relative;
+  
+  -webkit-perspective: 500;
+  -moz-perspective: 500;
+  -ms-perspective: 500;
+  perspective: 500;
+}
+
+.portfolio-bg {
+  
+  -webkit-transform: rotateY(30deg);
+  -moz-transform: rotateY(30deg);
+  -ms-transform: rotateY(30deg);
+  transform: rotateY(30deg);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  
+}
+
+.portfolio-item:hover .portfolio-bg {
+  
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.portfolio-item:hover .portfolio-description {
+  
+  -webkit-transform: rotateY(0deg) translateZ(0px);
+    -moz-transform: rotateY(0deg) translateZ(0px);
+    -ms-transform: rotateY(0deg) translateZ(0px);
+    transform: rotateY(0deg) translateZ(0px);
+}
+
+.portfolio-description {
+  
+  width:220px;
+  background: #ededed;
+  box-shadow:0px 0px 10px #222;
+  font-size:20px;
+  color:#424242;
+  padding:20px;
+  position:absolute;
+  left:45px;
+  top:220px;
+  
+   -webkit-transform: rotateY(30deg) translateZ(60px);
+   -moz-transform: rotateY(30deg) translateZ(60px);
+   -ms-transform: rotateY(30deg) translateZ(60px);
+   transform: rotateY(30deg) translateZ(60px);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+h4 {
+  
+  font-size:24px;
+  margin-bottom:10px;
+  color:#555;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+  .portfolio {
+    font-size: 110%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+
+
+
